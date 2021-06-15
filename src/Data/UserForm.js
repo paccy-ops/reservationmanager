@@ -89,7 +89,7 @@ export default function UserForm(props) {
                             text="ACEPTAR OFERTA " />
                         <Controls.Button
                             text="ENVIAR CONTRAOFERTA"
-                            color="light"
+                            color="secondary"
                             onClick={''} />
                     </div>
                 </Grid>
