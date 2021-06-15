@@ -6,12 +6,12 @@ import { makeStyles, CssBaseline, createMuiTheme, ThemeProvider } from '@materia
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#e52165",
-      light: '#0d1137'
+      main: "#3b4d61",
+      light: '#6b7b8c'
     },
     secondary: {
       main: "#077b8a",
-      light: '#5c3c92'
+      light: '#ffffff'
     },
     background: {
       default: "#000000"

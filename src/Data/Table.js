@@ -117,8 +117,8 @@ const useStyles = makeStyles((theme) => ({
         marginTop: theme.spacing(3),
         '& thead th': {
             fontWeight: '700',
-            color: theme.palette.primary.main,
-            backgroundColor: theme.palette.primary.light,
+            color: theme.palette.primary.light,
+            backgroundColor: theme.palette.primary.main,
         },
         '& tbody td': {
             fontWeight: '600',
@@ -133,7 +133,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function BasicTable() {
   const classes = useStyles();
-  const pages = [2, 5, 10]
+  const pages = [2, 3,5,7, 10]
     const [page, setPage] = useState(0)
     const [rowsPerPage, setRowsPerPage] = useState(pages[page])
     const [order, setOrder] = useState()
@@ -201,7 +201,7 @@ export default function BasicTable() {
                 </Typography>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
-          <TableRow>
+          <TableRow color={'#ef9d10f'}>
             <TableCell>ID</TableCell>
             <TableCell align="right">CHECKIN</TableCell>
             <TableCell align="right">CHECHOUT</TableCell>
